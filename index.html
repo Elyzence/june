@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Your Name – IT Professional</title>
+  <meta name="description" content="Portfolio of an early-career IT professional." />
+  <meta name="theme-color" content="#F7F3ED" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%233F6A6B'/%3E%3C/svg%3E" />
+</head>
+<body>
+  <a class="skip" href="#about">Skip to content</a>
+
+  <!-- Refined loading state: removed by main.js once the 3D scene is ready -->
+  <div id="loader" role="status" aria-live="polite">
+    <p>Loading portfolio</p>
+    <span class="bar"></span>
+  </div>
+
+  <!-- Fixed 3D layer. Purely decorative, hence aria-hidden. -->
+  <canvas id="gallery" aria-hidden="true"></canvas>
+
+  <header class="nav" id="nav"></header>
+
+  <!-- All text content is injected from src/content.js by src/render.js -->
+  <main id="app">
+    <section id="hero" class="hero"></section>
+    <section id="about" class="section"></section>
+    <section id="education" class="section"></section>
+    <section id="experience" class="section"></section>
+    <section id="more" class="section"></section>
+    <section id="skills" class="section"></section>
+    <section id="contact" class="section"></section>
+  </main>
+
+  <footer class="foot" id="foot"></footer>
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
