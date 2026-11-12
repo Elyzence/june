@@ -85,7 +85,7 @@ export const content = {
       photos: [{ src: 'photos/gcp.png', side: 'left', y: 2.4, dz: 2 }, { src: 'photos/gcp2.png', side: 'left', y: 2.4, dz: 0, size: [2.4, 3.2], fit: 'contain' }],
       captions: ['Rainwater collection system', 'Completion certificate'],
       org: 'Engineers without Borders Hong Kong',
-      period: 'Jan 2022 – Jun 2025',
+      period: 'Jan 2023 – Jun 2025',
       text: 'Started as a participant and later joined the Organizing Committee, coordinating teams and events. Applied systems and design thinking to study poverty in Hong Kong, linked findings to the “Lantau Tomorrow” initiative, and delivered a TED-style talk on a 2050 carbon-neutral plan. Also designed a STEAM class for Myanmar students and joined a service trip to Malaysia focused on sustainability and village infrastructure.',
     },
     {
